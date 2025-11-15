@@ -2,59 +2,248 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Women Go Tech AI Assistant | Baiba Zvaigzne</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Baiba Zvaigzne – Women Go Tech AI Portfolio</title>
+  <meta name="description" content="AI & automation portfolio by Baiba Zvaigzne – Women Go Tech AI in Action." />
+
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      padding: 50px;
-      background-color: #fafafa;
+    :root{
+      --bg:#0b0f14;
+      --panel:#111722;
+      --muted:#7b8794;
+      --text:#ecf2f8;
+      --accent:#7dd3fc;
+      --accent-soft: rgba(125,211,252,.15);
+      --border:#1c2533;
+      --chip:#1a2331;
     }
-    h1 {
-      color: #333;
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0; background:linear-gradient(180deg,#0b0f14 0%, #0c131c 100%);
+      color:var(--text); font:16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Inter, Arial, sans-serif;
     }
-    p {
-      color: #555;
-      max-width: 600px;
-      margin: 10px auto 30px;
+    a{color:var(--accent); text-decoration:none}
+    a:hover{text-decoration:underline}
+    .wrap{
+      display:grid; grid-template-columns: 340px 1fr; gap:24px;
+      max-width:1200px; margin:0 auto; padding:28px;
     }
+    @media (max-width: 960px){
+      .wrap{grid-template-columns: 1fr}
+    }
+
+    /* Sidebar */
+    .side{
+      background:var(--panel); border:1px solid var(--border); border-radius:18px;
+      padding:22px; position:sticky; top:16px; height:fit-content;
+      box-shadow: 0 10px 30px rgba(0,0,0,.25);
+    }
+    .avatar{
+      width:72px; height:72px; border-radius:50%;
+      background:var(--chip); display:inline-block; margin-right:12px;
+    }
+    .title{display:flex; align-items:center; gap:12px; margin-bottom:10px}
+    h1{font-size:22px; margin:0}
+    .role{color:var(--muted); font-size:14px; margin-top:2px}
+    .badge{
+      display:inline-block; padding:6px 10px; border-radius:999px;
+      background:var(--chip); border:1px solid var(--border); margin:6px 6px 0 0; font-size:12px
+    }
+    .block{margin-top:18px; padding-top:16px; border-top:1px dashed var(--border)}
+    .block h3{margin:0 0 10px 0; font-size:14px; letter-spacing:.4px; color:#cde3f5; text-transform:uppercase}
+    .proj{
+      display:flex; flex-direction:column; gap:10px;
+    }
+    .proj a.item{
+      display:block; padding:12px; border-radius:12px; background:rgba(255,255,255,0.02);
+      border:1px solid var(--border);
+    }
+    .proj a.item:hover{background:rgba(255,255,255,0.04)}
+    .item .name{font-weight:600}
+    .item .desc{font-size:13px; color:var(--muted)}
+    .cta{
+      display:flex; gap:10px; margin-top:14px; flex-wrap:wrap
+    }
+    .btn{
+      display:inline-flex; align-items:center; gap:8px;
+      background:var(--accent-soft); color:var(--accent);
+      border:1px solid #1f2a37; padding:10px 14px; border-radius:12px; font-weight:600
+    }
+    .btn:hover{filter:brightness(1.1); text-decoration:none}
+
+    /* Main */
+    .main{
+      background:var(--panel); border:1px solid var(--border); border-radius:18px;
+      min-height:70vh; padding:22px; box-shadow: 0 10px 30px rgba(0,0,0,.25);
+    }
+    .hero{
+      display:flex; align-items:center; justify-content:space-between; gap:16px; margin-bottom:14px;
+      border-bottom:1px dashed var(--border); padding-bottom:14px;
+    }
+    .hero h2{margin:0; font-size:20px}
+    .note{color:var(--muted); font-size:14px}
+    .panel{
+      background:rgba(255,255,255,.02); border:1px solid var(--border); border-radius:14px; padding:16px;
+    }
+    .grid{
+      display:grid; grid-template-columns: 1fr 1fr; gap:16px; margin-top:16px;
+    }
+    @media (max-width: 960px){ .grid{grid-template-columns:1fr} }
+
+    .kbd{
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      background:#0e1622; border:1px solid var(--border); padding:3px 6px; border-radius:6px;
+    }
+    .footer{margin-top:18px; color:var(--muted); font-size:13px; text-align:center}
   </style>
 </head>
 <body>
-  <h1>🤖 Women Go Tech AI Assistant</h1>
-  <p>
-    Created by <strong>Baiba Zvaigzne</strong> during the
-    <em>Women Go Tech – AI in Action</em> program.<br />
-    Ask me about automation, data, and AI workflows.
-  </p>
+  <div class="wrap">
+    <!-- Sidebar -->
+    <aside class="side">
+      <div class="title">
+        <div class="avatar" aria-hidden="true"></div>
+        <div>
+          <h1>Baiba Zvaigzne</h1>
+          <div class="role">AI & Automation • Women Go Tech</div>
+        </div>
+      </div>
 
-  <!-- Chatbase widget -->
+      <div>
+        Building practical AI assistants and automations (Zapier, Power Automate, Python) and documenting hands-on projects from the <strong>Women Go Tech – AI in Action</strong> program.
+      </div>
+
+      <div class="block">
+        <h3>Skills</h3>
+        <span class="badge">Chatbase</span>
+        <span class="badge">OpenAI</span>
+        <span class="badge">Zapier</span>
+        <span class="badge">Power Automate</span>
+        <span class="badge">Google Sheets</span>
+        <span class="badge">Data Analysis</span>
+        <span class="badge">Streamlit/Gradio</span>
+      </div>
+
+      <div class="block">
+        <h3>Projects</h3>
+        <div class="proj">
+          <a class="item" href="#" target="_blank" rel="noopener">
+            <div class="name">Chatbase AI Assistant</div>
+            <div class="desc">Deployed on this page via embed widget</div>
+          </a>
+          <a class="item" href="#" target="_blank" rel="noopener">
+            <div class="name">Feedback Categorization (Zapier + OpenAI)</div>
+            <div class="desc">End-to-end labeling, JSON schema, Google Sheets log</div>
+          </a>
+          <a class="item" href="#" target="_blank" rel="noopener">
+            <div class="name">SharePoint Policy Classifier (Power Automate)</div>
+            <div class="desc">AI Builder predict, 5k char guardrail, approvals</div>
+          </a>
+        </div>
+        <div class="cta">
+          <a class="btn" href="https://github.com/YOUR-USERNAME/YOUR-REPO" target="_blank" rel="noopener">View Repository</a>
+          <a class="btn" href="https://www.linkedin.com/in/baiba-zvaigzne/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+
+      <div class="block">
+        <h3>Contact</h3>
+        <div>📧 <a href="mailto:your.email@example.com">your.email@example.com</a></div>
+        <div>🌍 Riga, Latvia</div>
+      </div>
+    </aside>
+
+    <!-- Main content -->
+    <main class="main">
+      <div class="hero">
+        <div>
+          <h2>Women Go Tech AI Assistant (Live)</h2>
+          <div class="note">
+            The chat widget loads on the right/bottom (floating bubble). Click it to start.
+          </div>
+        </div>
+        <div class="note">
+          Tip: Press <span class="kbd">?</span> inside the chat for help (if enabled in Chatbase).
+        </div>
+      </div>
+
+      <div class="panel">
+        <strong>About this bot</strong>
+        <p style="margin-top:8px">
+          This assistant showcases portfolio Q&A, project walkthroughs, and quick demos.<br/>
+          Role: concise, practical, and solution-oriented for AI & automation tasks.
+        </p>
+
+        <div class="grid">
+          <div>
+            <h3 style="margin:0 0 8px 0">What you can ask</h3>
+            <ul style="margin:0 0 0 18px">
+              <li>“Show me Baiba’s Women Go Tech projects.”</li>
+              <li>“How did you build the SharePoint policy classifier?”</li>
+              <li>“Give a Zapier step-by-step for feedback labeling.”</li>
+              <li>“What’s the data pipeline for spending insights?”</li>
+            </ul>
+          </div>
+          <div>
+            <h3 style="margin:0 0 8px 0">Tech stack</h3>
+            <ul style="margin:0 0 0 18px">
+              <li>Chatbase widget embed</li>
+              <li>OpenAI API for reasoning</li>
+              <li>Zapier / Power Automate integrations</li>
+              <li>GitHub Pages deployment</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <p class="footer">
+        © <span id="year"></span> Baiba Zvaigzne — Women Go Tech • Built with GitHub Pages
+      </p>
+    </main>
+  </div>
+
+  <!-- Chatbase floating widget (your provided script). 
+       Keep the script ID exactly as Chatbase gave you. -->
   <script>
-    (function(){
-      if(!window.chatbase||window.chatbase("getState")!=="initialized"){
-        window.chatbase=(...arguments)=>{
-          if(!window.chatbase.q){window.chatbase.q=[]}
-          window.chatbase.q.push(arguments)
-        };
-        window.chatbase=new Proxy(window.chatbase,{
-          get(target,prop){
-            if(prop==="q"){return target.q}
-            return(...args)=>target(prop,...args)
-          }
-        })
-      }
-      const onLoad=function(){
-        const script=document.createElement("script");
-        script.src="https://www.chatbase.co/embed.min.js";
-        script.id="s9t9dEpZLq95O-Rf2_Bmd";  <!-- your unique chatbot ID -->
-        script.domain="www.chatbase.co";
-        document.body.appendChild(script)
+  (function(){
+    if(!window.chatbase||window.chatbase("getState")!=="initialized"){
+      window.chatbase=(...arguments)=>{
+        if(!window.chatbase.q){window.chatbase.q=[]}
+        window.chatbase.q.push(arguments)
       };
-      if(document.readyState==="complete"){onLoad()}
-      else{window.addEventListener("load",onLoad)}
-    })();
+      window.chatbase=new Proxy(window.chatbase,{
+        get(target,prop){
+          if(prop==="q"){return target.q}
+          return(...args)=>target(prop,...args)
+        }
+      })
+    }
+    const onLoad=function(){
+      const script=document.createElement("script");
+      script.src="https://www.chatbase.co/embed.min.js";
+      script.id="s9t9dEpZLq95O-Rf2_Bmd";   // <-- your unique Chatbase chatbot ID
+      script.domain="www.chatbase.co";
+      document.body.appendChild(script)
+    };
+    if(document.readyState==="complete"){onLoad()}
+    else{window.addEventListener("load",onLoad)}
+  })();
   </script>
+
+  <script>
+    // year in footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+  <!--
+    OPTIONAL: If you prefer the chatbot embedded inline (not floating),
+    replace the floating script above with Chatbase's <iframe> embed:
+    <iframe src="https://www.chatbase.co/chatbot-iframe/YOUR-IFRAME-ID"
+            width="100%" height="650" frameborder="0"></iframe>
+    And place it inside the .panel or anywhere in .main.
+  -->
 </body>
 </html>
+
 
