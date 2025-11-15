@@ -4,7 +4,7 @@ This is an AI chatbot built by **Baiba Zvaigzne** during the *Women Go Tech – 
 It demonstrates how AI assistants can support automation, data analysis, and user engagement.
 
 ## 💬 Chatbot Link
-👉 [Try the Chatbase chatbot here](https://www.chatbase.co/your-chatbot-link)
+👉 [Try the Chatbase chatbot here](https://ralliste.github.io/women-go-tech-chatbot/)
 
 ## 🧠 Purpose
 To showcase practical application of AI in business and workflow automation.
