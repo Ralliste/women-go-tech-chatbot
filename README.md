@@ -1,93 +1,92 @@
-# 🤖 Women Go Tech AI Assistant
-
-This repository documents my journey through the **Women Go Tech – AI in Action** program.  
-It showcases how I’m learning to design, automate, and deploy AI systems — from data processing pipelines to working assistants.
-
----
-
-## 💬 Live Demo
-👉 [Try my Chatbase AI Assistant](https://ralliste.github.io/women-go-tech-chatbot/)  
-*(Chatbot built and deployed via Chatbase — explaining projects, tools, and automation use cases.)*
+# Women Go Tech – AI Automation Portfolio  
+A collection of practical tasks, experiments, and project work completed during the **Women Go Tech – AI in Action** program, combined with my **Salesforce AI & automation learning**.  
+This repository also hosts my deployed **Chatbase AI Assistant**, which helps visitors explore the projects and provides links to live demos and documents.
 
 ---
 
-## 🧠 About the Project
+## 🚀 Live Demo  
+**AI Assistant Portfolio:**  
+https://ralliste.github.io/women-go-tech-chatbot/
 
-This portfolio evolves alongside my learning path at **Women Go Tech**.  
-It reflects how I combine **AI automation**, **data analytics**, and **no-code/low-code tools** to create practical AI solutions that save time and improve workflows.
-
-**Current focus:**  
-- Building data workflows and automations with n8n and Zapier  
-- Deploying AI assistants to explain and document project tasks  
-- Integrating Chatbase, Power Automate, and Salesforce tools into one ecosystem  
+**Feedback Form:**  
+https://forms.gle/YOUR_FORM_ID
 
 ---
 
-## 🛠 Tech Stack
+## 📚 Practical Tasks (Women Go Tech)  
+Each task has its own documentation or asset inside this repo:
 
-| Tool / Platform | Purpose |
-|------------------|----------|
-| **Chatbase** | Chatbot design, testing, and deployment |
-| **OpenAI API** | Language model integration |
-| **Zapier** | Automation and system integration |
-| **Power Automate** | Document and data processing |
-| **n8n** | Building and shipping custom AI workflows |
-| **Apify + GPT** | Web data extraction and research automation |
-| **Qdrant / Apollo** | Vector search and agent knowledge base |
-| **GitHub Pages** | Hosting live project demos |
+1. **Prompting with Purpose** – fundamentals of prompt engineering  
+2. **Goal Setting with Prompting**  
+3. **Advanced AI Prompting & Reasoning**  
+4. **Google Sheet Automation**  
+5. **Connect Your Agent with Zapier**  
+6. **Build Your First AI Workflow with Power Automate**  
+7. **Build Your First AI-Powered Assistant**  
+8. **Feedback Collection Task**  
+9. **From CSV Chaos to Clean Insights (Data Workflow)**  
+10. **Build & Ship Your First n8n Assistant**
 
----
-
-## 🚀 Learning Timeline
-
-### 🧩 *From Data to Decisions*
-- Data intake, cleaning, and structuring fundamentals  
-- AI-powered data enrichment  
-- Building the decision loop and troubleshooting broken automations  
-- Practical Task: *Decision Brief & Feedback Loop*
-
-### 🤖 *Bring Your Own AI Assistant to Life*
-- Building data workflows with n8n  
-- Automating insights generation from CSV data  
-- Research automation using Apify + GPT  
-- Using Qdrant and Apollo for smarter assistant memory  
-- Building agent loops and multi-agent collaboration  
-- Practical Task: *Deploy and ship a fully functional AI assistant*
+All PDFs, screenshots, and notes are included in this repository.
 
 ---
 
-## ⚙️ Salesforce Automation & Agentforce Learning
+## 🤖 Salesforce AI & Agentforce Learning  
+Alongside Women Go Tech, I completed key Salesforce modules and superbadges around AI automation:
 
-Alongside Women Go Tech, I’ve advanced my knowledge of **AI-powered automation in Salesforce**, focusing on how prompts, flows, and Apex can work together to create intelligent assistants within CRM systems.
+- Agentforce Service Superbadge  
+- Prompt Builder Templates Superbadge  
+- Prompt Engineering Techniques  
+- Agent Customization with Flows  
+- Agent Customization with Apex  
+- Deploying Agent Authentication  
+- Cert Prep: Agentforce Specialist *(in progress)*  
 
-### 🧩 Key Learning Areas
-- **Prompt Builder & Engineering Techniques:**  
-  Designed and optimized prompts that drive context-aware automations in Salesforce.
-- **Agent Customization with Flows & Apex:**  
-  Created flow-powered and code-based agent actions that automate service cases, data updates, and customer interactions.
-- **Service Agent Customization:**  
-  Built agents capable of resolving customer inquiries autonomously using predefined workflows.
-- **Authentication & Secure Workflows:**  
-  Implemented user authentication layers for controlled AI-driven actions.
-- **Multi-Agent Logic:**  
-  Integrated multiple Salesforce AI tools (Prompt Builder, Flow, Apex) into unified intelligent systems.
+**Skills gained:**  
+AI automation · Prompt Builder · Apex actions · Agent customization · Flow orchestration
 
-### 🧠 Certifications & Badges
-- 🥇 **Agentblazer Innovator Badge**  
-- 🧩 **Superbadge: Agentforce Service** – Automated service workflows and customer interactions  
-- 💬 **Superbadge: Prompt Builder Templates** – Created reusable prompt frameworks for AI-powered insights  
-- 🎓 **Cert Prep: Agentforce Specialist** *(in progress toward certification)*
-
-### 🚀 What I Learned
-This journey deepened my understanding of:
-- **End-to-end process automation** — connecting data, logic, and human interaction  
-- **AI + CRM integration** — combining automation tools with Salesforce’s platform for scalable impact  
-- **Prompt-driven design** — using natural language to define and control automation processes  
-
-These skills complement my work in **Zapier, Power Automate, and n8n**, bridging AI automation across different ecosystems.
+Documentation for these is inside the **Independent Project – Salesforce** folder.
 
 ---
 
-## 📂 Repository Structure
+## 💬 AI Assistant (Chatbase)  
+This repo powers my **Chatbase AI assistant**, designed to:
 
+- Explain my Women Go Tech tasks  
+- Summarize my Salesforce automation learning  
+- Link to project files  
+- Provide next-step guidance  
+- Direct users to the feedback form  
 
+The assistant is embedded in `index.html` and deployed via GitHub Pages.
+
+---
+
+## 📝 Project Overview  
+A consolidated description of all projects is available here:
+
+**project_overview.md**  
+https://github.com/Ralliste/women-go-tech-chatbot/blob/main/project_overview.md
+
+---
+
+## 🛠 Stack  
+- Chatbase (AI assistant)  
+- GitHub Pages (hosting)  
+- Women Go Tech curriculum  
+- Salesforce Agentforce  
+- Zapier, Power Automate, n8n  
+- Google Forms (feedback)
+
+---
+
+## 📩 Feedback  
+Visitors can leave feedback using the link below:  
+https://forms.gle/YOUR_FORM_ID
+
+---
+
+## 👩‍💻 Author  
+**Baiba Zvaigzne**  
+AI & Automation – Women Go Tech Alumna  
+LinkedIn: https://www.linkedin.com/in/baiba-zvaigzne/
