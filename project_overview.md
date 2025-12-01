@@ -1,121 +1,121 @@
-# 📘 Project Overview
+1️⃣ Chatbase AI Assistant (Live on GitHub Pages)
 
-This document provides an overview of practical projects completed and in progress during the **Women Go Tech – AI in Action** program and related Salesforce automation learning paths.
+Goal: Build and deploy a personal AI assistant that explains my projects and helps visitors navigate my portfolio.
 
----
+What I did:
 
-## 🤖 1. Chatbase AI Assistant  
-**Goal:** Create and deploy an interactive AI chatbot that explains my portfolio and supports learning queries.  
+Created a Chatbase chatbot and customized its role and behavior.
 
-**Tools Used:** Chatbase, OpenAI API, GitHub Pages  
+Deployed it to GitHub Pages using a custom HTML page (index.html).
 
-**What I Did:**
-- Defined the chatbot role and personality to present my Women Go Tech projects clearly.  
-- Embedded the chatbot widget in a live GitHub Pages portfolio.  
-- Connected Q&A logic to my project summaries and technical stack.  
-- Designed a clean web layout to display both the chatbot and project descriptions.  
+Added a feedback form for users to share comments.
 
-**Outcome:**  
-A fully deployed public chatbot that demonstrates practical understanding of AI assistant design, user interaction, and deployment workflows.  
+Connected it with updated project documents stored in this repository.
 
-📍 *Live Demo:* [Chatbase Assistant](https://ralliste.github.io/women-go-tech-chatbot/)
+Outcome:
+A working, public AI assistant that introduces my work, links to project files, and collects user feedback.
 
----
+2️⃣ Women Go Tech Practical Tasks
 
-## ⚙️ 2. Zapier Feedback Classifier  
-**Goal:** Automate the categorization of customer or internal feedback using AI and structured outputs.  
+This repository includes documentation, PDFs, notes, and screenshots for each task.
 
-**Tools Used:** Zapier, OpenAI (Text Analysis), Google Sheets  
+Task 1: Prompting With Purpose
 
-**What I Did:**
-- Built a Zap to capture feedback and send it to OpenAI for sentiment and category detection.  
-- Designed JSON output parsing to ensure structured and reusable results.  
-- Logged categorized results into Google Sheets with dynamic timestamps.  
-- Created conditions for follow-up actions — e.g., notifications for negative feedback or summary emails for managers.  
+Learned how to design clear, effective prompts and evaluate AI responses.
 
-**Outcome:**  
-A no-code automation pipeline that uses AI for natural language analysis and structured reporting.  
+Task 2: Goal Setting With Prompting
 
-💡 *Skills Applied:* Automation design, data categorization, API prompt testing, and error handling in Zapier.
+Used prompting to define actionable goals and improve planning.
 
----
+Task 3: Advanced Prompting & Reasoning
 
-## 📊 3. Power Automate – AI Builder Document Classifier  
-**Goal:** Automatically classify uploaded documents in SharePoint as “Policy” or “Non-policy” using AI Builder.  
+Practiced chain-of-thought, structured prompting, and more complex instructions.
 
-**Tools Used:** Microsoft Power Automate, SharePoint, AI Builder Predict  
+Task 4: Google Sheet Automation
 
-**What I Did:**
-- Designed a cloud flow triggered by file upload.  
-- Applied AI Builder’s “Predict” model to classify the file based on content.  
-- Built conditional logic for automatic tagging and notifications.  
-- Solved model length errors by pre-validating text input (<5000 characters).  
+Built formulas and automations powered by AI to enrich spreadsheet workflows.
 
-**Outcome:**  
-Operational document-processing flow demonstrating low-code AI integration in business systems.  
+Task 5: Connect Your Agent With Zapier
 
-💡 *Skills Applied:* JSON parsing, error debugging, AI Builder setup, and SharePoint automation.
+Created flows to categorize data, send structured outputs, and trigger follow-up actions.
 
----
+Task 6: Build Your First AI Workflow (Power Automate)
 
-## 🔄 4. n8n Data Workflow Assistant *(Upcoming: Practical Task #9–10)*  
-**Goal:** Build and ship a modular AI assistant using n8n that transforms data from CSV into actionable insights.  
+Used triggers, connectors, and AI Builder to classify documents in SharePoint.
 
-**Tools Planned:** n8n, OpenAI, Qdrant, Apify, Google Sheets  
+Task 7: Build Your First AI-Powered Assistant
 
-**Next Steps:**
-- Automate CSV ingestion and cleaning to eliminate manual structuring.  
-- Enrich data via GPT and store embeddings in Qdrant.  
-- Deploy a working n8n-based assistant that can summarize, categorize, and visualize data.  
-- Integrate Apify for research automation and report generation.  
+Explored multi-step reasoning, assistant structure, and user guidance.
 
-🎯 *Focus:* Combine AI, automation, and data transformation into a single agent pipeline.
+Task 8: Add Feedback Collection to Your Assistant
 
----
+Integrated external feedback through Google Forms and GitHub Pages.
 
-## 🧩 5. Salesforce Agentforce & Prompt Builder Projects  
-**Goal:** Learn and apply Salesforce automation for AI-driven customer service and data handling.  
+Task 9: From CSV Chaos to Clean Insights (n8n)
 
-**Tools Used:** Salesforce Agentforce, Prompt Builder, Flows, Apex  
+Cleaned and enriched CSV files using n8n, AI functions, and conditional logic.
 
-**Completed Modules:**
-- **Prompt Builder Templates & Engineering Techniques**  
-- **Agent Customization with Flows and Apex**  
-- **Deploy Agent Authentication**  
-- **Service Agent Customization**  
-- **Superbadge: Agentforce Service & Prompt Builder Templates**
+Task 10: Build & Ship Your First n8n Assistant
 
-**What I Learned:**
-- How to build intelligent CRM automations using natural language prompts.  
-- How to design and test prompt-based workflows that automate customer interactions.  
-- How to securely integrate data and flows in Salesforce using Apex logic.  
+Combined scraping, Qdrant, reasoning steps, and n8n automations into one flow.
 
-🎖️ *Achievements:*  
-- Agentblazer Innovator Badge  
-- Cert Prep: Agentforce Specialist (in progress)
+3️⃣ Salesforce AI & Agentforce Learning
 
----
+Alongside Women Go Tech, I deepened my learning in Salesforce AI automation:
 
-## 🧠 6. Key Themes Across All Projects
+Completed Modules & Superbadges:
 
-| Theme | Description |
-|-------|--------------|
-| **Automation & Efficiency** | Replacing repetitive manual work with AI-driven workflows. |
-| **Data → Insight Transformation** | Turning unstructured data into actionable intelligence. |
-| **Low-Code AI Implementation** | Using platforms like Zapier, Power Automate, and n8n for quick AI deployment. |
-| **Cross-Platform Thinking** | Connecting Salesforce, Chatbase, and workflow tools into unified ecosystems. |
-| **Prompt Engineering** | Crafting precise prompts for reliable AI outcomes across platforms. |
+Agentforce Service (Superbadge)
 
----
+Prompt Builder Templates (Superbadge)
 
-## 💡 Reflection
+Prompt Engineering Techniques
 
-Every project in this portfolio represents a milestone in my shift from **logistics and business development** to **AI automation and analytics**.  
-I’ve learned to connect different systems — Salesforce, Chatbase, Zapier, and n8n — into one cohesive ecosystem where AI truly becomes part of daily operations.
+Agent Customization with Flows
 
----
+Agent Customization with Apex
 
-**Author:**  
-**Baiba Zvaigzne**  
-📍 Riga, Latvia  
-🔗 [LinkedIn](https://www.linkedin.com/in/baiba-zvaigzne/) | [GitHub](https://github.com/Ralliste)
+Deploy Agent Authentication
+
+Service Agent Customization with Prompt Builder
+
+Agent Customization: Quick Look
+
+Create Advanced Agent Customizations
+
+Agentforce Certification Prep (in progress)
+
+Outcome:
+Strong understanding of prompt-based workflows, agent actions, flow automation, Apex integrations, and building intelligent CRM assistants.
+
+4️⃣ Other Automation Tools & Experiments
+
+📌 Zapier
+Categorized feedback, automated data handling, and built functional Zaps for calendar and workflow tasks.
+
+📌 Power Automate
+Built document classification flows using AI Builder, conditions, and SharePoint triggers.
+
+📌 n8n
+Built multi-step automations, scraping workflows, CSV transformations, and basic agents.
+
+📌 Apify
+Tested scraping templates and integrated scraping outputs into automation flows.
+
+📌 Qdrant
+Stored vector embeddings for content search inside n8n assistant projects.
+
+5️⃣ Key Skills Demonstrated
+Area	What I Learned
+AI Prompting	Designed prompts for reasoning, decision-making, structured outputs.
+Automation	Built end-to-end flows using Zapier, Power Automate, and n8n.
+Data Processing	Cleaned, enriched, and transformed datasets using AI.
+Agent Design	Learned how AI assistants operate through Chatbase and Salesforce.
+Deployment	Published a working AI assistant on GitHub Pages.
+Feedback Loops	Collected user feedback to improve assistant interactions.
+6️⃣ Reflection
+
+This portfolio shows how I moved from experimenting with prompts to building actual automation workflows and deploying my first AI assistant.
+Each task pushed me to try new tools — Chatbase, Salesforce, Zapier, Power Automate, n8n — and understand how AI supports real, practical workflows.
+
+I enjoyed seeing everything connect into one ecosystem and watching my learning turn into working projects.
